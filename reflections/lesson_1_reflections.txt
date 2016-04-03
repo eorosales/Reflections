@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The output from executing git diff allows me to query two commit IDs in order to compare the lines that were added or deleted from the code to one another. Using this technique, I am able to narrow down the commit in which the bug was introduced.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having access to the entire history allows me to have access to any old revisions and restore any work to that checkpoint.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    When manually choosing to create a commit, the user can choose when to create that checkpoint. This can represent a logical change to the user. When automatically commiting any changes, it can be convenient, but the logic may not be meaningful to a developer as it is to the computer.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    In Git repositories, a person can have a single file whose changes can effect multiple files. With each commit, a person will be able to update all the files effected.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Using git log, I am able to look through the messages that were created with each commit. Also, I can view the history of the commits in chronological order along with their timestamps and authors. Looking through the log, I can view the commit IDs as well. Using git diff, I am able to compare and view how many lines were added or deleted when comparing two commit IDs. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    In using a version control system, I can go to an early snapshot of my work before or when the break occured. Once I find the appropriate commit -- using git log and git diff -- I can work from there or figure out how the break occured.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try using Git for updating some old work and starting a new project. I am curious to see whether this will help with my workflow along with having the capabilites to create and have access to early version.

@@ -1,0 +1,32 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When you initialize a repository, the .git directory is created. You need to do this in order to track the history of files and the commits created.
+
+How is the staging area different from the working directory? What do you think it offers?
+
+	The working directory is the directory on your hard drive that contains the files that you are working with.
+
+	A staging area is an intermediate area between the working directory and the repository in which I can add multiple files from the working directory and creates a single commit that is then added to the repository.
+
+	Using these two areas, I am able to specify files that I want to add to the staging area for me to work with. Once I am satisfied with my changes, I can commit those changes into my repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	I can add only the files I want for each logical change to the staging area in order to bundle them together to create a single meaningful commit associated with only those files.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help? 
+
+	If I would like to experiment or work on a new feature to add, but keep my production site in tact, I can do so without effecting the master. Essentially, creating and working on branches would assist me in not interfering with my working master branch. When trying a new feature or changing context or creating a development branch, the master branch will remain in full production.
+
+How do the diagrams help you visualize the branch structure?
+
+	With a diagram, I can easily see the map of the project and see the commits and work completed or currently being worked on. This helps to see current progress.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The result of merging two brances together allows you to access any of the commits within the two branches. After two branches are merged -- say a branch into the master -- all changes will be applied and added within the master. This is represented in the diagram this way to show that the branch is being merged into the master. The master would contain all the changes -- if any -- it had before along with the addition of the changes in the branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	When using git to automatically merge, git can produce merge conflicts. When the same line of two of the same files is changed in two different branches, git cannot decide which change should take effect. This will require a conversation between the two users who created the changes to discuss which one to implement. When merging manually, you are more aware of what is taking place. Athough this process may be tedious, you will create more meaningful merges.
+
