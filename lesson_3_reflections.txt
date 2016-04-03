@@ -1,2 +1,4 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
+
+  Using a remote repository on GitHub would be perfect for working on a project with multiple contributors. This can also be especially helpful when keeping in mind version control and having the ability to track the work of others.
